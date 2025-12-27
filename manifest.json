@@ -1,23 +1,20 @@
 {
-  "name": "Simple Sheet Free - Calc & Note",
-  "short_name": "SS FREE",
-  "description": "Minimalist calculator with integrated note-taking. Experience structured calculations for free.",
-  "id": "/Simple-Sheet-Free/",
-  "start_url": "./index.html",
+  "name": "Simple Sheet FREE",
+  "short_name": "Sheet FREE",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#4db8ff",
+  "theme_color": "#2ECC71",
   "icons": [
     {
-      "src": "web-app-manifest-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
     },
     {
-      "src": "web-app-manifest-512x512.png",
+      "src": "web-app-manifest-512x512.jpg",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/jpeg",
       "purpose": "any"
     }
   ]
