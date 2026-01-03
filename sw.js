@@ -1,13 +1,11 @@
-// sw.js (Free Version)
-const CACHE_NAME = 'simple-sheet-free-v4';
+// sw.js
+const CACHE_NAME = 'simple-sheet-pro-v1'; 
+
 const urlsToCache = [
   './',
   'index.html',
   'manifest.json',
-  'favicon-96x96.png', // 修正: .ico から実際の .png に変更
-  'apple-touch-icon.png',
-'web-app-manifest-192x192.png',
-  'web-app-manifest-512x512.png'
+  'favicon-96x96.png'
 ];
 
 self.addEventListener('install', event => {
